@@ -21,6 +21,10 @@ dependencies:
   redux: ^5.0.0
   riverpod: ^2.5.1
 
+  #tests
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+
   # HTTP Client
   http: ^1.2.2  
   # JSON Serialization
