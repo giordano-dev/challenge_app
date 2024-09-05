@@ -72,7 +72,7 @@ Os testes garantem que os fluxos principais do app funcionem conforme o esperado
 2. **Passos**:
    1. Clone o repositório:
       ```bash
-      git clone <url-do-repositorio>
+      git clone https://github.com/giordano-dev/challenge_app.git
       ```
    2. Instale as dependências:
       ```bash
