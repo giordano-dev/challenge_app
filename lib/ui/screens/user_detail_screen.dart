@@ -15,7 +15,7 @@ class UserDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     final bool isMobile = screenWidth < 600;
-    final bool isPrincipalUser = user == principalUser; // Verifica se é o usuário logado
+    final bool isPrincipalUser = user == principalUser;
 
     return Scaffold(
       appBar: AppBar(
@@ -32,7 +32,6 @@ class UserDetailScreen extends StatelessWidget {
       ),
       body: Stack(
         children: [
-          // Gradiente de fundo
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -109,7 +108,7 @@ class UserDetailScreen extends StatelessWidget {
                           ),
                           onPressed: () {
                             Navigator.of(context).pushNamedAndRemoveUntil(
-                              '/login', // Volta para a tela de login
+                              '/login',
                               (Route<dynamic> route) => false,
                             );
                           },

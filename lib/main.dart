@@ -28,9 +28,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        // Defina a rota inicial
         initialRoute: AppRoutes.login,
-        // Use a propriedade routes ou onGenerateRoute para navegar
         onGenerateRoute: AppRoutes.generateRoute,
       ),
     );

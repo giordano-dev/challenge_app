@@ -15,7 +15,6 @@ class AppRoutes {
         return MaterialPageRoute(builder: (_) => const LoginScreen());
 
       case userList:
-        // Aqui espera-se que os argumentos incluam um principalUser e uma lista de usuários
         if (settings.arguments is Map<String, dynamic>) {
           final args = settings.arguments as Map<String, dynamic>;
           final principalUser = args['principalUser'] as User;

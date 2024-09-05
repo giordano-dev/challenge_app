@@ -17,15 +17,12 @@ class AuthRepository {
     );
 
     if (response.statusCode == 200) {
-      // Sucesso: parse do token
       final data = jsonDecode(response.body);
       return data['token'];
     } else if (response.statusCode == 400) {
-      // Erro: retorna a mensagem de erro adequada
       final data = jsonDecode(response.body);
       throw Exception(data['error'] ?? 'Erro desconhecido');
     } else {
-      // Outro erro
       throw Exception('Erro ao fazer login. Verifique suas credenciais.');
     }
   }
