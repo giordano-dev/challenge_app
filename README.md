@@ -68,10 +68,6 @@ Os testes garantem que os fluxos principais do app funcionem conforme o esperado
    - Configurar ambiente de desenvolvimento para iOS/Android (Android Studio, Xcode).
    - Acesso à internet para a API [Reqres](https://reqres.in).
 
-1. **Pré-requisitos**:
-   - Flutter SDK instalado ([Instruções de Instalação](https://flutter.dev/docs/get-started/install)).
-   - Configurar ambiente de desenvolvimento para iOS/Android (Android Studio, Xcode).
-   - Acesso à internet para a API [Reqres](https://reqres.in).
 
 2. **Passos**:
    1. Clone o repositório:
